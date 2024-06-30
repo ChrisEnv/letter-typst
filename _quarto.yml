@@ -1,0 +1,18 @@
+project:
+  output-dir: output
+  preview: 
+    port: 4200
+
+linestretch: 1.3
+format: 
+  letter-pdf: default
+  html: default
+  
+# filter
+filters:
+  - watermark
+
+# filter settings
+watermark:
+  text: "INTERNAL USE ONLY"
+  opacity: 0.1

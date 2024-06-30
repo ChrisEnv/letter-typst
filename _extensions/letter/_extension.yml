@@ -1,0 +1,18 @@
+name: letter
+version: 0.1.0
+title: "Factsheet Template for Scientific Projects"
+description: "A TypSt template for creating beautifully formatted letters."
+contributes:
+  formats:
+    typst:
+      variables:
+        institution-logo: "media/dd_logo.png"
+        date: 19.06.2024
+        sender_address: street \ city
+        sender_contact: phone \ mail
+        receiver: contact \ street \ city
+        valediction: "Sincerely,"
+        accent: rgb(0, 0, 128)
+      template-partials:
+        - typst-template.typ
+        - typst-show.typ

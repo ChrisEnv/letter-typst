@@ -1,0 +1,12 @@
+---
+title: title
+author: firstname name
+format: 
+  letter-typst:
+    variables:
+      sender_address: mystreet 6 \ 13189 Berlin
+      sender_contact: +49 XXXXXXXXXXX \ mymail\@mail.de
+      valediction: "Sincerly,"
+      date: 21.06.2024
+  html: default
+---
